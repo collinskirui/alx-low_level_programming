@@ -1,7 +1,7 @@
 
-#Requirements
+# Requirements
 
-#C
+# C
 
 Allowed editors: vi, vim, emacs
 
