@@ -1,6 +1,7 @@
-**Requirements**
 
-**C**
+#Requirements
+
+#C
 
 Allowed editors: vi, vim, emacs
 
@@ -48,13 +49,13 @@ emacs or vi a new file called betty, and copy the script below:
   
 #!/bin/bash
   
-# Simply a wrapper script to keep you from having to use betty-style
+Simply a wrapper script to keep you from having to use betty-style
   
-# and betty-doc separately on every item.
+and betty-doc separately on every item.
   
-# Originally by Tim Britton (@wintermanc3r), multiargument added by
+Originally by Tim Britton (@wintermanc3r), multiargument added by
   
-# Larry Madeo (@hillmonkey)
+Larry Madeo (@hillmonkey)
 
 BIN_PATH="/usr/local/bin"
   
