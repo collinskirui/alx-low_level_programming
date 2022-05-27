@@ -1,22 +1,24 @@
-#include "lists.h"
 #include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#include "lists.h"
 
 /**
- * list_len - function that prints all the elements of a list_t list
- * @h: pointer to the struct list_t
- *
- * Return: size_t
- */
-
-size_t list_len(const list_t *h)
+  * listint_len - Counts the elements in a linked list
+  * @h: The head of the linked list
+  *
+  * Return: The number of elements in a linked list
+  */
+size_t listint_len(const listint_t *h)
 {
-	size_t count;
+	int count = 0;
 
-	for (count = 0; h != NULL; count++)
+	if (h != NULL)
 	{
-		h = (*h).next;
+		while (h)
+		{
+			h = h->next;
+			count++;
+		}
 	}
+
 	return (count);
 }
